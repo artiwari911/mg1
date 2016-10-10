@@ -1,8 +1,8 @@
     <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
     <div id="yt_resmenu_collapse" style="height: 0;" class="nav-collapse collapse">
 	    <ul class="nav-menu clearfix">
-	    <li class="nav-home">
-	        <a class="nav-home" href="http://127.0.0.1/mg1/?___SID=U" title="Home"><span>Home</span></a>
+	    <li class="nav-home active">
+	        <a class="nav-home active" href="http://127.0.0.1/mg1/?___SID=U" title="Home"><span>Home</span></a>
 	    </li>
 	    	        <li class="level0 nav-1 parent" onmouseover="toggleMenu(this,1)" onmouseout="toggleMenu(this,0)">
 <a href="http://127.0.0.1/mg1/fashion.html?___SID=U">
