@@ -1,0 +1,17 @@
+<div class="footer-title">
+<h2>MY ACCOUNT</h2>
+</div>
+<div class="content-block-footer">
+<ul>
+<li><span class="sp-ic icon-home" style="font-size: 16px; position: relative; top: 1px;">&nbsp;</span>8901 Marmora Road, Glasgow, D04 89GR</li>
+<li style="margin-top: -4px;"><span class="sp-ic icon-mobile-phone" style="font-size: 22px; position: relative; top: 4px;">&nbsp;</span>Telephone: <a title="Call:(801) 2345 - 6789" href="tel:+84123456789">(801) 2345 - 6789</a></li>
+<li><span class="sp-ic icon-envelope" style="font-size: 13px; position: relative;">&nbsp;</span>E-mail: <a title="support@maxshop.com" href="mailto:name@email.com">support@maxshop.com</a></li>
+</ul>
+<ul class="payment-method">
+<li><a title="Payment Method" href="#"><img src="http://127.0.0.1/mg1/media/wysiwyg/payment/payment-1.png" alt="Payment" /></a></li>
+<li><a title="Payment Method" href="#"><img src="http://127.0.0.1/mg1/media/wysiwyg/payment/payment-2.png" alt="Payment" /></a></li>
+<li><a title="Payment Method" href="#"><img src="http://127.0.0.1/mg1/media/wysiwyg/payment/payment-3.png" alt="Payment" /></a></li>
+<li><a title="Payment Method" href="#"><img src="http://127.0.0.1/mg1/media/wysiwyg/payment/payment-4.png" alt="Payment" /></a></li>
+<li><a title="Payment Method" href="#"><img src="http://127.0.0.1/mg1/media/wysiwyg/payment/payment-5.png" alt="Payment" /></a></li>
+</ul>
+</div>

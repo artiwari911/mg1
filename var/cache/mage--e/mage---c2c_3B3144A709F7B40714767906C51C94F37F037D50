@@ -1,0 +1,63 @@
+<div class="slider-brand-bottom-wrapper">
+	<div class="customNavigation custom-nav-default">
+		<a class="button-default prev-brand-bottom icon-angle-left" title="Previous"></a>
+		<a class="button-default next-brand-bottom icon-angle-right" title="Next"></a>
+	</div>
+	
+	<div class="slider-brand-bottom">
+		<div class="item">
+			<a href="#" title="Image Brand"><img src="http://127.0.0.1/mg1/media/wysiwyg/brand-slider/brand-item-1.png" alt="Image Brand" /></a>
+		</div>
+		
+		<div class="item">
+			<a href="#" title="Image Brand"><img src="http://127.0.0.1/mg1/media/wysiwyg/brand-slider/brand-item-2.png" alt="Image Brand" /></a>
+		</div>
+		
+		<div class="item">
+			<a href="#" title="Image Brand"><img src="http://127.0.0.1/mg1/media/wysiwyg/brand-slider/brand-item-3.png" alt="Image Brand" /></a>
+		</div>
+		
+		<div class="item">
+			<a href="#" title="Image Brand"><img src="http://127.0.0.1/mg1/media/wysiwyg/brand-slider/brand-item-4.png" alt="Image Brand" /></a>
+		</div>
+		
+		<div class="item">
+			<a href="#" title="Image Brand"><img src="http://127.0.0.1/mg1/media/wysiwyg/brand-slider/brand-item-5.png" alt="Image Brand" /></a>
+		</div>
+		
+		<div class="item">
+			<a href="#" title="Image Brand"><img src="http://127.0.0.1/mg1/media/wysiwyg/brand-slider/brand-item-1.png" alt="Image Brand" /></a>
+		</div>
+		
+		<div class="item">
+			<a href="#" title="Image Brand"><img src="http://127.0.0.1/mg1/media/wysiwyg/brand-slider/brand-item-2.png" alt="Image Brand" /></a>
+		</div>
+	</div>
+	
+					<script>
+						jQuery(document).ready(function($) {
+							var owl_slider_brand = $(".slider-brand-bottom");
+							owl_slider_brand.owlCarousel({
+								itemsCustom : [
+								[0, 2],
+								[480, 3],
+								[768, 4],
+								[992, 5],
+								[1200, 5]
+								], 
+								navigation : false, // Show next and prev buttons
+								paginationSpeed : 400,
+								autoPlay:true,
+								pagination: false,
+                                                                stopOnHover:true
+							});	 
+									
+							$(".next-brand-bottom").click(function(){
+								owl_slider_brand.trigger('owl.next');
+							})
+							$(".prev-brand-bottom").click(function(){
+								owl_slider_brand.trigger('owl.prev');
+							})
+						});	
+					</script>
+</div>
